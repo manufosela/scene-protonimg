@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <title>scene-protonimg demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <script type="module" src="../scene-protonimg.js"></script>
+    <style>
+      .blocks {
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+      }
+      .block {
+        display:flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        white-space: normal;
+      }
+      .code {
+        padding: 20px;
+        color:#FFF; 
+        background: #000;
+      }
+      .attributes {
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic scene-protonimg Demo</h3>
+      <div class="blocks">
+        <pre class="block code">
+          <code>
+            &lt;scene-protonimg&gt;&lt;/scene-protonimg&gt;
+          </code>
+        </pre>
+        <pre class="block attributes">
+          <h3>Attributes</h3>
+          <ul>
+            <li>time (Number)</li>
+            <li>width (Number)</li>
+            <li>height (Number)</li>
+            <li>background (String)</li>
+            <li>imagen1 (String)</li>
+            <li>imagen2 (String)</li>
+          </ul>
+        </pre>
+      </div>
+
+      <scene-protonimg 
+        width="900"
+        height="300"
+        time="5"
+        background="#000"
+        imagen1="img/scene-protonimg-demo1.png"
+        imagen1="img/scene-protonimg-demo2.png"  
+      ></scene-protonimg>
+    </div>
+  </body>
+</html>
