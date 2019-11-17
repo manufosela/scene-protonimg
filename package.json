@@ -1,6 +1,6 @@
 {
   "name": "scene-protonimg",
-  "description": "Lit-Element webcomponent scene-protonimg",
+  "description": "Lit-Element webcomponent scene proton images",
   "version": "1.0.0",
   "main": "scene-protonimg.js",
   "repository": {
